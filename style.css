@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+header {
+  background-color: #9f5fff;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+}
+section {
+  padding: 2em;
+  max-width: 800px;
+  margin: auto;
+}
+#one {
+  display: flex;
+  gap: 10px;
+}
+.cta-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 0.75em 1.5em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.1em;
+}
+.cta-button:hover {
+  background-color: #0056b3;
+}
+.benefits-list {
+  list-style-type: none;
+  padding: 0;
+}
+.benefits-list li {
+  padding: 0.5em 0;
+}
+footer {
+  background-color: #b8f8f8;
+  padding: 1em;
+  text-align: center;
+  font-size: 0.9em;
+  color: #666;
+}
