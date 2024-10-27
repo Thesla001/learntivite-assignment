@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>user guide</title>
+  </head>
+  <body>
+    <div>
+      <form action="/submit" method="post">
+        <div>
+          <label for="name">Your Name</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+        <div>
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div>
+          <label for="message">Company (Optional)</label>
+          <textarea id="message" name="message" rows="1"></textarea>
+        </div>
+        <div>
+          <label for="phone_number">Phone Number (Optional)</label>
+          <input type="text" id="password" name="password" required />
+        </div>
+        <div>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4"></textarea>
+        </div>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+
+    <style>
+      button {
+        background-color: #007bff; /* Change to your desired color */
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+      }
+      input[type="your name"],
+      input[type="email address"],
+      input[type="company (optional)"],
+      input[type="phone number (op)"],
+      textarea {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+        font-size: 16px;
+      }
+
+      input:focus,
+      textarea:focus {
+        border-color: #007bff; /* Change to your accent color */
+        outline: none;
+      }
+    </style>
+  </body>
+</html>
